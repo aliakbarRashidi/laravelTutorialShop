@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', function () {
-    return 'ideapardazanjavan.com';
-});
+Route::get('admin/category/index', 'CategoryController@index');
