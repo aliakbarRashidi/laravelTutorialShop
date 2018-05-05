@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('admin/category/index', 'CategoryController@index');
+Route::post('admin/category/store', 'CategoryController@store');
